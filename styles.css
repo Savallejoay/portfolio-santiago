@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #1e293b, #020617, #000000);
+    color: #e2e8f0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 5px #00ffcc;
+}
+body::before {
+    content: "";
+    position: fixed;
+    width: 3.2px;
+    height: 3.2px;
+    background: white;
+    box-shadow:
+       
+        100px 200px white,
+        300px 150px white,
+        500px 300px white,
+        700px 100px white,
+        900px 250px white,
+        1100px 200px white,
+        1300px 350px white,
+
+        50px 100px white,
+        200px 300px white,
+        400px 150px white,
+        600px 500px white,
+        800px 200px white,
+        1000px 400px white,
+        1200px 250px white,
+        300px 600px white,
+        900px 100px white,
+        150px 250px white,
+        350px 450px white,
+        750px 350px white,
+        950px 550px white,
+        1150px 150px white,
+        1350px 450px white,
+
+        80px 50px white,
+        220px 80px white,
+        420px 60px white,
+        620px 90px white,
+        820px 40px white,
+        1020px 70px white,
+        1220px 110px white,
+        1420px 60px white;
+
+    z-index: -1;
+    pointer-events: none;
+}
+
+header {
+    text-align: center;
+    padding: 2.6rem;
+    background: #5b02ff4d;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    background: #5b02ff4d;
+     text-shadow: 0 0 5px;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    background: #1e293b;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 1px solid #00ffcc;
+}
+
+a:hover {
+    color: #ff00ea;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 0 0 5px;
+    background: #5b02ff4d;
+}
